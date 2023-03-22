@@ -1,6 +1,6 @@
 ## ReactDropdown App
 
-#### Deployed link: 
+#### Deployed link: https://dropdown-reactapp.netlify.app/
 
 #### Getting Started
 This is a simple react app which shows how to use React Component in action.
