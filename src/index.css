@@ -1,12 +1,15 @@
+/* ADDING BACKGROUND COLOR IN THE APP BODY  */
 body {
   background-color: lightblue;
   font-family: cursive;
 }
 
+/* STYLING THE SPAN TAG  */
 span {
   margin-left: 20px;
 }
 
+/* DROP-DOWN STYLE STARTS  */
 .dropdown {
   position: relative;
   left: 50%;
@@ -45,3 +48,5 @@ span {
 .dropdown-menu li:hover {
   background-color: #f2f2f2;
 }
+
+/* DROP-DOWN STYLE ENDS  */
