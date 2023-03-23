@@ -14,12 +14,13 @@ function DropDown({ items }) {
             <div className="dropdown">
 
                 {/* CREATING BUTTON WHICH WE CAN APPLY THE HOVERING EFFECT  */}
+                {/* USING THE ANT ICONS PAKAGE FOR THE DOWN ARROW KEY */}
                 <button
                     className="dropdown-toggle"
                     onMouseEnter={() => setIsOpen(true)}
                     onMouseLeave={() => setIsOpen(false)}
                 >
-                    Dropdown <span><DownOutlined /></span> // USE THE ANT ICONS PAKAGE FOR THE DOWN ARROW KEY
+                    Dropdown <span><DownOutlined /></span>
                 </button>
 
                 {/* USING THE CONDITIONAL RENDERING WE CAN SHOW OR HIDE THE DROPDOWN MENU ITEMS  */}
